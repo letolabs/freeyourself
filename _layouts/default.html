@@ -4,13 +4,27 @@
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <title>{{ page.title }}</title>
    <meta name="author" content="Jonathan \"Duke\" Leto" />
-<!--   <link href="http://feeds.feedburner.com/tom-preston-werner" rel="alternate" title="Tom Preston-Werner" type="application/atom+xml" /> -->
 
    <!-- syntax highlighting CSS -->
    <link rel="stylesheet" href="css/syntax.css" type="text/css" />
 
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection" />
+
+{% if site.flattr_username %}
+   <script type="text/javascript">
+<!-- Flattr API -->
+   /* <![CDATA[ */
+    (function() {
+        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+        s.type  = 'text/javascript';
+        s.async = true;
+        s.src   = 'http://api.flattr.com/js/0.6/load.js?mode = auto';
+        t.parentNode.insertBefore(s, t);
+    })();
+    /* ]]> */
+</script>
+{% endif %}
 
 </head>
 <body>
@@ -55,6 +69,15 @@
         {% endif %}
       {% if site.coderwall_username %}
         <a href="http://coderwall.com/{{ site.coderwall_username }}">Coderwall</a><br />
+        {% endif %}
+      {% if site.flattr_username %}
+<a class="FlattrButton" style="display:none;"
+    title="Flattr Me"
+    rev="flattr;uid:{{ site.flattr_username }};category:text;tags:tag1,tag2;"
+    href="{{ site.flattr_url }}">
+    Flattr desc.
+</a>
+
         {% endif %}
       </p>
     </div>
