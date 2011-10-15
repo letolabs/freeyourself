@@ -57,7 +57,11 @@ Bitcoin <b>{{ site.bitcoin_address }}</b>
 
 
 {% if site.flattr_username %}
-<img style="" alt="Flattr This!" src="https://api.flattr.com/button/flattr-badge-large.png">
+<a class="FlattrButton" style="display:none;"
+    title="Flattr Me"
+    rev="flattr;uid:{{ site.flattr_username }};category:text;tags:tag1,tag2;"
+    href="{{ site.flattr_url }}">Flattr desc</a>
+
 <br/>
 {% endif %}
 
