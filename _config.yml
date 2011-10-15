@@ -26,8 +26,6 @@ google_merchant_id:
 
 pledgie_campaign_id:
 
-flattr_username:
-
 google_analytics:
 
 ohloh_account_id: 9466
@@ -37,3 +35,7 @@ ohloh_url:  http://ohloh.leto.net
 linkedin_url: http://linkedin.leto.net
 
 coderwall_username:
+
+flattr_username: dukeleto
+
+flattr_url: http://leto.github.com/freeyourself
