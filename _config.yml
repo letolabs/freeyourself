@@ -3,6 +3,7 @@ pygments: true
 
 name: Jonathan "Duke" Leto
 email: jonathan@leto.net
+tagline: Founder of <a href="http://labs.leto.net">Leto Labs LLC</a>
 location: Portland, OR
 github: leto
 identica: leto
@@ -35,7 +36,7 @@ ohloh_url:  http://ohloh.leto.net
 
 linkedin_url: http://linkedin.leto.net
 
-coderwall_username:
+coderwall_username: leto
 
 flattr_username: dukeleto
 flattr_url: http://labs.leto.net/freeyourself
