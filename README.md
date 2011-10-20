@@ -5,6 +5,7 @@ creators can customize and use to receive donations for their work. It supports
 many different ways to receive donations. Currently these methods are
 supported:
 
+* Flattr
 * Bitcoin
 * Dwolla
 * PayPal
@@ -13,7 +14,6 @@ Methods which are currently being worked on:
 
 * Amazon Payments
 * Google Checkout
-* Flattr
 
 The more possible methods of easily and conveniently donating, the higher the
 chance of getting a donation.
@@ -50,9 +50,10 @@ your Free Your Self instance:
 * Fork Free Your Self on github
 * Modify the _config.yml file and put in your information. Only donation methods
 that you configure will show up on your Free Your Self website.
-* Modify the HTML/Javascript/etc in index.html to tell the world what you do and how to donate.
+* Modify the HTML/Javascript/etc in _includes/main.html to tell the world what you do and how to donate.
 * Commit your changes and push the new commit to your fork.
-* Your new Free Your Self website will show up at https://USER.github.com/freeyourself .
+* Your new Free Your Self website will show up at https://USER.github.com/freeyourself where USER is your Github username.
+
 It will take about 10 minutes for it to show up the first time, but after that the website
 will be updated within a few seconds after each push.
 
@@ -72,13 +73,16 @@ flowing:
 can send you donations
 * Create a QR code which is a link to your donation page. Then you can print it out, make
 stickers, tshirts, the sky is the limit!
+* For an example FYS site, take a look at http://leto.github.com . The source can be found
+at https://github.com/leto/leto.github.com 
 
 # Inspiration
 
-Free Your Self was inspired by Ingy's website http://free.ingy.net . I
+Free Your Self was spiritually inspired by Ingy's website http://free.ingy.net . I
 immediately realized that many, many people could benefit from something like
 that, but I wanted to make it dead-simple to receive donations as well as
-being easily configurable.
+being easily configurable. The actual code of Free Your Self started as a fork of
+[Tom Preston-Werner's](http://tom.preston-werner.com) blog, which uses Github Pages.
 
 # License
 
