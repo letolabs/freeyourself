@@ -26,9 +26,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
 }
 
-#bitcoin div, #dwolla div, #pledgie div, #flattr div, #paypal divi, #amazon div {
-    float:left;
-}
 
 h1 {
   margin-bottom: 1em;
@@ -94,6 +91,12 @@ ul.posts {
   color: #a00;
   font-weight: bold;
   margin-bottom: 2em;
+}
+
+#bitcoin div.site, #dwolla div.site,
+#pledgie div.site, #flattr div.site,
+#paypal div.site, #amazon div.site {
+    float:left;
 }
 
   .site .title a {
