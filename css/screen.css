@@ -92,10 +92,23 @@ ul.posts {
   font-weight: bold;
   margin-bottom: 2em;
 }
-
-#bitcoin div.site, #dwolla div.site,
-#pledgie div.site, #flattr div.site,
-#paypal div.site, #amazon div.site {
+/* dumb */
+#bitcoin div.site {
+    float:left;
+}
+#dwolla div.site {
+    float:left;
+}
+#pledgie div.site {
+    float:left;
+}
+#flattr div.site {
+    float:left;
+}
+#paypal div.site {
+    float:left;
+}
+#amazon div.site {
     float:left;
 }
 
