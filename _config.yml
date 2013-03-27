@@ -3,7 +3,7 @@ pygments: true
 
 name: Jonathan "Duke" Leto
 email: jonathan@leto.net
-tagline: Founder of <a href="http://labs.leto.net">Leto Labs LLC</a>
+tagline: Founder of <a href="http://letolabs.com">Leto Labs LLC</a>
 location: Portland, OR
 github: leto
 identica: leto
@@ -12,7 +12,7 @@ freeyourself_url: http://github.com/letolabs/freeyourself
 
 default_donation: 5
 default_currency: USD
-donation_url: http://labs.leto.net/freeyourself
+donation_url: http://letolabs.com/freeyourself
 
 amazon_payments_account_id:
 
@@ -39,7 +39,7 @@ linkedin_url: http://linkedin.leto.net
 coderwall_username: leto
 
 flattr_username: dukeleto
-flattr_url: http://labs.leto.net/freeyourself
+flattr_url: http://letolabs.com/freeyourself
 flattr_language: en_US
 flattr_tags: website
 flattr_category: software
